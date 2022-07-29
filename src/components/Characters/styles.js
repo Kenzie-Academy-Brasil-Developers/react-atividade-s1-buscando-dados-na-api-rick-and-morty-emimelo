@@ -42,7 +42,7 @@ const Main = styled.main`
     display: flex;
     flex-wrap: wrap;
     gap: 1.875rem;
-    height: 21.563rem;
+    height: 25.563rem;
     overflow-y: scroll;
   }
 
