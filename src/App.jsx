@@ -7,7 +7,7 @@ import GlobalStyle from "./style/reset.js";
 function App() {
   const [characterList, setCharacterList] = useState([]);
   const [page, setPage] = useState(1);
-  const [info, setInfo] = useState({});
+  const [, setInfo] = useState({});
   const [isNextDisabled, setIsNextDisabled] = useState(false);
   const [isPreviousDisabled, setIsPreviousDisabled] = useState(true);
 

@@ -11,7 +11,7 @@ const Characters = ({
   isPreviousDisabled,
 }) => {
   function changePage(name) {
-    name === "next" ? setPage(() => page++) : setPage(() => page--);
+    name === "next" ? setPage(() => page + 1) : setPage(() => page - 1);
   }
   return (
     <>
