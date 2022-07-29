@@ -8,6 +8,7 @@ const Li = styled.li`
 
 const DivImg = styled.div`
   width: 12.5rem;
+  padding: 1.25rem;
 
   img {
     width: 100%;
@@ -32,7 +33,7 @@ const DivCard = styled.div`
 const DivInfo = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 20px 20px 20px;
 
   span {
     color: #ffffff;

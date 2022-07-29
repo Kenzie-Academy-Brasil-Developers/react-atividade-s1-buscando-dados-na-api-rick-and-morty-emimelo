@@ -27,17 +27,8 @@ const Characters = ({
       >
         <section>
           <ul>
-            {characterList.map((character) => {
-              return (
-                <ChardCard
-                  name={character.name}
-                  image={character.image}
-                  species={character.species}
-                  status={character.status}
-                  gender={character.gender}
-                  id={character.id}
-                />
-              );
+            {characterList.map((character, index) => {
+              return <ChardCard key={index} character={character} />;
             })}
           </ul>
         </section>

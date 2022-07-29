@@ -21,7 +21,7 @@ function App() {
         setIsNextDisabled(!info.next);
         setIsPreviousDisabled(!info.prev);
       });
-  }, [characterList, page, info]);
+  }, [page]);
 
   return (
     <>
