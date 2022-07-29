@@ -15,7 +15,7 @@ const ChardCard = ({ character }) => {
       <DivImg>
         <img
           src={character.image}
-          alt=""
+          alt={`Imagem de perfil do(a) personagem ${character.name}`}
           style={{
             boxShadow:
               character.status === "Alive"

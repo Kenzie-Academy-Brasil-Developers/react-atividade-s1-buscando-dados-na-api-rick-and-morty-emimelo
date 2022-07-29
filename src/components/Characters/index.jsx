@@ -17,8 +17,8 @@ const Characters = ({
     <>
       <Header>
         <div>
-          <img src={logo} alt="" />
-          <img src={img} alt="" />
+          <img src={logo} alt="Logotipo da série Rick and Morty" />
+          <img src={img} alt="Imagem ilustrativa do Rick e Morty" />
         </div>
       </Header>
       <Main
